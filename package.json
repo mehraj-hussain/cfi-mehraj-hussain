@@ -1,0 +1,23 @@
+{
+  "name": "cfi-mehraj-hussain",
+  "version": "1.0.0",
+  "description": "this will have all the files from git hub",
+  "main": "arithematic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehraj-hussain/cfi-mehraj-hussain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehraj-hussain/cfi-mehraj-hussain/issues"
+  },
+  "homepage": "https://github.com/mehraj-hussain/cfi-mehraj-hussain#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
