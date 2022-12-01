@@ -1,0 +1,6 @@
+var m=1;
+do {
+   
+    console.log("You're going to be the next polygon advocate soon", m)
+m++
+}while(m <=  700 )

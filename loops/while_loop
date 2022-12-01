@@ -1,0 +1,7 @@
+//
+var k = 1
+while(k != 0){ console.log('you are at Google')
+ k--
+
+
+}
