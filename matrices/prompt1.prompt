@@ -1,0 +1,2 @@
+prompt `what is your name : `
+echo 'your name is '$input'
