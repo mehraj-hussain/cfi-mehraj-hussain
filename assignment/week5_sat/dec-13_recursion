@@ -1,0 +1,30 @@
+// function fun(num){
+//     if(num == 4)
+//     return num;
+//     return 2 * fun (num +1);
+// }
+// var n = 1;
+// console.log(fun(n))
+
+
+// function my(i){
+//     if( i < 4) return i;
+//         o = 2* i *(i -1)
+//         console.log(o)
+//         return(o)
+    
+// }
+// var myself = 9
+// console.log(my(myself))
+
+function f(n){
+    if(n <2 && n <=0)
+    return n;
+    n = (n-1) + (n-2)
+    
+    return arr[i]
+}
+
+var m = 3
+console.log(f(m))
+//011235813

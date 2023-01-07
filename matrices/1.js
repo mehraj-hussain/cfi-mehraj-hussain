@@ -55,3 +55,24 @@ maatrix(d)
 // print the diagonal elements in different colour
 // function of matrix
 //access the diagonal a matrix
+
+
+function matrix(){
+    //let a = []
+    var readlineSync = require('readline-sync')
+    var rows = readlineSync.questionInt('Enter the number of rows : ')
+    var columns = readlineSync.questionInt('Enter the number of columns : ')
+    let arr = []
+    for(let i=0; i<rows ;i++){
+        arr[i] = []
+        for (let j=0; j<columns ; j++){
+            arr = readlineSync.questionInt(`enter the elements of a matrix arr${[i]}${[j]}`)
+           arr += arr[i,j] + ' '
+        }
+
+        //arr.push(i)
+    }
+    console.log(arr)
+}
+
+matrix()

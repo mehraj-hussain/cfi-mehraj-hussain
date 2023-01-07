@@ -11,19 +11,23 @@
 
 let matrix = [];
 var readlineSync = require("readline-sync")
-
-for (let i = 0; i < 3; i++) {
+var rows = readlineSync.questionInt('enter the number of rows : ')
+var columns = readlineSync.questionInt('enter the number of columns : ')
+for (let i = 0; i < rows; i++) {
   let row = [];
-  for (let j = 0; j < 3; j++) {
+ 
+  for (let j = 0; j < columns; j++) {
+   
     let element = readlineSync.questionInt(`Enter element (${i},${j})`);
     row.push(element);
+  var str = "";
+     
+   str +=matrix.push(row) + " ";
   }
-  matrix.push(row);
+  str =str + "\n"
 }
 
-console.log(matrix);
+console.log(str);
 
 
-function squareMatrix(){
-    for( )
-}
+   

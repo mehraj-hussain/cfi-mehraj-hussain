@@ -1,0 +1,17 @@
+import chalk from 'chalk'
+const matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+for (let i = 0; i < matrix.length; i++) {
+  for (let j = 0; j < matrix[i].length; j++) {
+    if (i === j) {  // Check if element is on the diagonal
+      // Color element here
+      console.log(chalk.red[i][j] );
+    }
+    else{console.log(matrix)}
+  }
+}
+    }
